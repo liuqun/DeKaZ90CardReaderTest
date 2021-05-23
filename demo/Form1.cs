@@ -1,11 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace demo
@@ -20,7 +14,7 @@ namespace demo
         private void button1_Click(object sender, EventArgs e)
         {
             StringBuilder myStrB = new StringBuilder(2048);
-            PT.BLL.DLL.SSCard.iReadCardBas(1, myStrB);
+            DLL.SSCard.iReadCardBas(1, myStrB);
             if (myStrB != null && myStrB.ToString() != "" && myStrB.ToString().IndexOf("|") >= 0)
             {
                 //MessageBox.Show(myStrB.ToString());

@@ -1,11 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+﻿using System.Text;
 
 using System.Runtime.InteropServices;
 
-namespace PT.BLL.DLL
+namespace demo.DLL
 {
     /// <summary>
     /// 德卡读卡器专用类
